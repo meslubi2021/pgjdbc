@@ -33,7 +33,7 @@
     <jdbc.specification.version>4.2</jdbc.specification.version>
     <jdbc.specification.version.nodot>42</jdbc.specification.version.nodot>
     <skip.assembly>false</skip.assembly>
-    <checkstyle.version>8.28</checkstyle.version>
+    <checkstyle.version>8.29</checkstyle.version>
   </properties>
 
   <dependencies>
@@ -191,7 +191,7 @@
                 <dependency>
                   <groupId>org.codehaus.plexus</groupId>
                   <artifactId>plexus-archiver</artifactId>
-                  <version>2.4.4</version>
+                  <version>4.8.0</version>
                   <!-- newer versions fail as described in http://stackoverflow.com/a/36605759/1261287
                        Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
                         at org.codehaus.plexus.archiver.zip.AbstractZipArchiver.<clinit>(AbstractZipArchiver.java:116)
@@ -206,7 +206,7 @@
                 <dependency>
                   <groupId>org.codehaus.plexus</groupId>
                   <artifactId>plexus-archiver</artifactId>
-                  <version>2.4.4</version>
+                  <version>4.8.0</version>
                 </dependency>
               </dependencies>
             </plugin>
@@ -218,7 +218,7 @@
                 <dependency>
                   <groupId>org.codehaus.plexus</groupId>
                   <artifactId>plexus-archiver</artifactId>
-                  <version>2.4.4</version>
+                  <version>4.8.0</version>
                 </dependency>
               </dependencies>
             </plugin>
